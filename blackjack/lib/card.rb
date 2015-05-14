@@ -7,6 +7,10 @@ class Card
   end
 
   def display
+    puts "~~~~~~~~~~~~~~~~~~~"
+    puts suit
+    puts display_value
+    puts "~~~~~~~~~~~~~~~~~~~"
   end
 
   def display_value
@@ -19,4 +23,5 @@ class Card
       value
     end
   end
+
 end

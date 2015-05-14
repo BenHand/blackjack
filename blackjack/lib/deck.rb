@@ -15,7 +15,7 @@ class Deck
     @cards = @cards.shuffle
   end
 
-  def draw
+  def deal
     @cards.pop
   end
 
