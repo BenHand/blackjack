@@ -7,10 +7,10 @@ class Deck
         (2..10).each do |value|
           @cards << Card.new(suit, value)
         end
-        @cards << Card.new(suit, 11)
-        @cards << Card.new(suit, 12)
-        @cards << Card.new(suit, 13)
-        @cards << Card.new(suit, 14)
+        @cards << Card.new(suit, 10) #J
+        @cards << Card.new(suit, 10) #Q
+        @cards << Card.new(suit, 10) #K
+        @cards << Card.new(suit, 11) #A
       end
     @cards = @cards.shuffle
   end

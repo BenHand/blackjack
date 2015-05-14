@@ -9,19 +9,21 @@ class Card
   def display
     puts "~~~~~~~~~~~~~~~~~~~"
     puts suit
-    puts display_value
+    puts value
     puts "~~~~~~~~~~~~~~~~~~~"
   end
 
-  def display_value
-    case value
-    when 11 then "J"
-    when 12 then "Q"
-    when 13 then "K"
-    when 14 then "A"
-    else
-      value
-    end
-  end
+  # def display_value
+  #   case value
+  #   when "J" then 10
+  #   when "Q" then 10
+  #   when "K" then 10
+  #   when "A"
+  #     puts "A = 1 or 11? (1/11) >> "
+  #     @ace_value = gets.to_i
+  #   else
+  #     value
+  #   end
+  # end
 
 end

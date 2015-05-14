@@ -1,11 +1,11 @@
 class Player
-  attr_accessor :deck, :name, :score
+  attr_accessor :deck, :name, :score, :shoe
 
   def initialize
-    # @score = 0
+     @score = 0
   end
 
-  def draw
+  def deal
     deck.deal
   end
 end
